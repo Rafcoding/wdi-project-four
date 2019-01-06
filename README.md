@@ -1,6 +1,4 @@
-# wdi-project-3
-
-# Play & Watch
+# P4: Play & Watch
 
 # Summary
 
@@ -44,10 +42,41 @@ Web Site Heroku. GitHub Repo.
 * Chai
 * Mocha
 
+# Approach taken
+
+
+This project was open to individual and group work, we had free-roam on what app to build, as long as we stuck to the brief. My main criteria for this project was to work in a team and on a project that had a simple MVP, but could be expanded on with many extra features.
+
+I joined Sham and Femi from my class and we began by planning our models and what we should include in the MVP. Brainstormed ideas and possible features to add, what would be difficult and what would be impossible to achieve within the timeframe.
+
+# Trello
+
 
 # Screenshots
 
+![index page](src/assets/images/index.png)
+
+![index page](src/assets/images/index2.png)
+
+![show page](src/assets/images/show.png)
+
+![show page](src/assets/images/show2.png)
+
+![basket page](src/assets/images/basket.png)
+
+![purchases page](src/assets/images/purchasehistory.png)
+
+# Bugs
+
+Below is a list of some of the known bugs within the app:
+
+* iFrame - if the iFrame is given an incorrect YouTube url, the show page won't render correctly, duplicating itself within the frame. If I had more time, I would have the input accept only the unique video ID, where the rest of the link is hardcoded.
+* Search bar - when a search term is deleted partially, the state doesn't update until the search term is cleared completely.
+* Rating stars - if a rating has been made, the stars don't reset if the show page is changed to another product. This is due to the ratings component being a classical component and as a result it doesn't update when the props change. I'd remedy this by adding a componentDidUpdate block to check for changes.
+
 # Wins and Blockers
+
+It has been the most structured, organised and mature project of the 4.
 
 # Future Content
 
