@@ -23,9 +23,14 @@ describe('Product', () => {
   it('should show the correct product',  done => {
     const component = shallow(<ProductBox product={testData}/>);
     expect(component.find('img').length).to.eq(1);
-    expect(component.find('img').props().src).to.eq(testData.images);
+
+    // expect(component.find('img').props().src).to.eq(testData.images);
+    // expect(component.find('img').props().src).to.eq(testData.images[0]);
+    // console.log(component.debug());
+
     expect(component.find('img').props().src).to.eq(testData.images[0]);
-    console.log(component.debug());
+    // console.log(component.debug());
+
     done();
   });
 });
