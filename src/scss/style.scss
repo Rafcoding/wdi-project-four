@@ -1,0 +1,361 @@
+@import "partials/ratingbox";
+@import "partials/slider";
+@import "partials/indexsuggestion";
+@import "partials/searchbox";
+
+
+html {
+  background: url('https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTczwPpf10BNAIpjg93OVBXieOlxLDUVdALKHvpC.iQYxhJ_MV4dWn12.v4JDpBEq98zwdFQu.VX8YiXAUipAMnZiclYvMLWJBmbkXmtgap7EoOhB4uOi.AKoKaNKf_HbkBKAGLvSNKDhGlxfTEgstMT1QntZQmtMbhK5WzjSV5lDs-&h=1080&w=1920&format=jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.back-image {
+  background-image: url(https://www.rvinyl.com/Shared/Images/Product/3M-Wrap-Film-Series-1080/3M-Wrap-Film-Series-1080-Shadow-Back-SB18.jpg);
+
+}
+
+
+
+#basket {
+  background-image: url(https://www.rvinyl.com/Shared/Images/Product/3M-Wrap-Film-Series-1080/3M-Wrap-Film-Series-1080-Shadow-Back-SB18.jpg);
+  color: white;
+  background-repeat: round;
+  height: 75vh;
+  overflow: auto;
+}
+
+#imagebasket {
+  width: 100px;
+  margin-left: 430px;
+  margin-top: -63px;
+}
+
+.basket-button {
+  border: none;
+  display: flex;
+  width: 102px;
+  justify-content: space-around;
+  background-color: orange;
+  margin-left: -220px;
+}
+.basket-amount {
+  margin-left: 530px;
+  margin-bottom: 10px;
+}
+
+#basketname {
+  font-size: 20px;
+  margin-left: 120px;
+}
+
+#logote {
+  width: 55px;
+  margin-top: 4px;
+  margin-left: 7px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: gold;
+  font-weight: 400;
+}
+
+h6 {
+
+  text-align: center;
+  font-size: 40px;
+  color: gold;
+  font-weight: 400;
+  margin-bottom: 270px;
+
+}
+
+#square {
+  width: 300px;
+  height: 500px;
+  border-radius: inherit;
+  background-color: rgba(0,0,0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+#marginIndex {
+  margin-top: 20px;
+}
+
+
+
+#imageshow{
+  margin-top: 115px;
+}
+
+#inputshow{
+  width: 60px;
+}
+
+
+#showpic {
+  margin-top: 115px;
+}
+#imageshow {
+  width: 400px;
+}
+
+section.showpage{
+  background-color: rgba(0,0,0,0.6);
+
+  article.showblock{
+    margin-top: 4vh;
+    color: white;
+      p.title {
+        color: white;
+        font-weight: 900;
+        font-size: 28px;
+        span{
+          color: gold;
+        }
+    }
+    strong{
+      color: gold;
+    }
+    p.textshow {
+      text-align: justify;
+      margin: 0 10px 10px 10px;
+    }
+    div.videoblock{
+      iframe{
+        width: 100%;
+        height: 600px;
+      }
+    }
+    div.suggestions-slider{
+      h3 {
+        margin-left: 10px;
+        font-size: 20px
+      }
+      div.show-suggestions {
+        height: 350px;
+        overflow: auto;
+        width: 98%;
+        margin: 0 auto;
+
+        img.suggestion-img {
+          max-height: 250px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+div.product-box {
+  div.frames {
+    width: 200px;
+    p {
+      font-size: 20px;
+      color: gold;
+      font-weight: 700;
+    }
+    p.title{
+      font-weight: 900;
+    }
+    p.rating{
+      font-size: 30px;
+    }
+    article.square {
+      width: 300px;
+      height: 450px;
+      border-radius: inherit;
+      background-color: rgba(0,0,0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      img{
+        max-height: 300px;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+
+#red {
+  color: red;
+  font-weight: 700;
+}
+
+
+div.cart-column {
+  strong{
+    font-size: 22px;
+  }
+  div.admin-buttons{
+    position: relative;
+    .button.delete-button{
+      background-color: orange;
+      color: black;
+    }
+  }
+  div.add-to-cart{
+    position: relative;
+    top: 12vh;
+    .button.is-link{
+      background-color: #76ad89;
+    }
+  }
+}
+
+
+
+nav.navbar {
+  width: 100%;
+  height: 9vh;
+  background-color: rgba(0,0,0, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 10px;
+  opacity: 0.6;
+  position: fixed;
+  font-weight: 900;
+  font-size: 15px;
+  transition: left 0.7s;
+}
+
+main.container {
+  top: 10vh;
+  position: relative;
+}
+
+#name {
+  // font-family: 'Pacifico', cursive;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 45px;
+  margin-top: 10px;
+}
+
+
+#loginbox {
+  margin-top: -300px;
+
+}
+
+#logintext, #registertext, #addingtext {
+  color: gold;
+}
+
+
+#registerbox {
+  margin-top: -250px;
+}
+
+
+.input {
+  background-color: rgba(0,0,0, 0.8);
+  caret-color: gold;
+  color: white;
+}
+.loginform{
+
+  ::placeholder {
+    color: white;
+  }
+}
+.imagesadd {
+  margin-top: 10px;
+}
+.button-form{
+  background-color: #76ad89;
+  color: white;
+  border: none;
+}
+
+.selection {
+  width: 150px;
+
+}
+
+.select select {
+    background-color: black;
+    border-color: #dbdbdb;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    max-width: 100%;
+    outline: none;
+}
+
+section.profileShow {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 2vh;
+  height: 85vh;
+  padding: 2em;
+
+  h3, p, th, td{
+    color: white;
+  }
+  img.profilePic{
+    max-width: 75%;
+    max-height: 75%;
+    border-radius: 50%;
+  }
+  div.purchase-history{
+    height: 80vh;
+    overflow: auto;
+    h3.title{
+      color: gold;
+    }
+  }
+}
+.text-is-right {
+  text-align: right;
+}
+
+#userEditBox{
+  position: relative;
+  top: 92px;
+}
+
+
+
+#userEditBox{
+  background-image: url(https://www.rvinyl.com/Shared/Images/Product/3M-Wrap-Film-Series-1080/3M-Wrap-Film-Series-1080-Shadow-Back-SB18.jpg);
+  color: white;
+}
+
+main.statisticShow{
+  background: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 2vh;
+  height: 85vh;
+  padding: 2em;
+  overflow: auto;
+  th, td{
+    color: white;
+  }
+  th.grand-total{
+    color: gold;
+    font-size: 22px;
+  }
+}
+
+
+
+.basket-quantity {
+  margin-right: 230px;
+}
+
+.nothing-to-see{
+  margin-top: 10vh;
+  color: gold;
+}
