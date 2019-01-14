@@ -89,7 +89,10 @@ Using Trello allowed us to make a thorough plan by breaking everything down to s
 ### Profile page
 ![profile page](src/assets/images/purchasehistory.png)
 
-## Add new product:
+### Add new product
+![add](/images/add.png)
+
+### Add new product
 ![add](/images/add.png)
 
 ### Statistics
