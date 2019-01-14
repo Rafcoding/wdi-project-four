@@ -1,26 +1,15 @@
-# P4: Play & Watch
+# **Project 4: Play & Watch** ![General Assembly](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 
-# Summary
+# Overview
 
 This app is an e-commerce website that sells both video games and movies. Play & Watch is a full stack application which has all the basic functions of an e-commerce website such as placing orders, keeping track of orders through purchase history, product basket e.t.c. This web app is also capable of showing users suggested products based on the genre of their previous purchases.
 
-Play & Watch was the final project of the GA Immersive course and it was also a group project. Our main objective was to use React to build the front-end and our timeframe for completion was one week. I was looking forward to using React so I found this project particularly interesting.
+Play & Watch was the final project of the GA Immersive course and it was also a group project. Our main objective was to use React to build the front-end and our timeframe for completion was one week. The objective was to build a full stack web application using React in **one week**.
+
 
 Web Site Heroku. GitHub Repo.
 
 <!-- Launch on [Heroku](https://play-and-watch.herokuapp.com). Check out the GitHub [Repo](https://github.com/ShamSZ/wdi-project-four). -->
-
-
-# **Project 4: Play & Watch** ![General Assembly](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
-
-
-## Overview
-Play & Watch is an e-commerce web app that sells video games and movies. Users can register and keep track of their purchase history, have tailored suggestions made to them in the form of featured products and can leave their ratings.
-Administrator accounts are able to see all the purchases made and keep track of sales  on the statistics page.
-
-This was my fourth project as part of the General Assembly Web Development Immersive course. The objective was to build a full stack web application using React in **one week**.
-
-
 
 
 ## Brief
@@ -77,18 +66,35 @@ Using Trello allowed us to make a thorough plan by breaking everything down to s
 
 # Screenshots
 
+### At MVP
+
+![mvp1](/images/mvp1.png)
+![mvp2](/images/mvp2.png)
+
+## Final Product
+
+### Index page
 ![index page](src/assets/images/index.png)
 
 ![index page](src/assets/images/index2.png)
 
+### Show page
 ![show page](src/assets/images/show.png)
 
 ![show page](src/assets/images/show2.png)
 
+### Basket
 ![basket page](src/assets/images/basket.png)
 
-![purchases page](src/assets/images/purchasehistory.png)
+### Profile page
+![profile page](src/assets/images/purchasehistory.png)
 
+### Add new product:
+![add](/images/add.png)
+
+### Statistics
+
+![statistics](/images/statistics.png)
 
 
 
@@ -151,51 +157,6 @@ handleScroll(){
   });
 }
 ```
-
-
-
-## Screenshots
-
-**At MVP**
-
-![mvp1](/images/mvp1.png)
-![mvp2](/images/mvp2.png)
-
-**Before final layout tweaks**
-
-![layout](/images/pre-style.png)
-
-### Final Product
-
-Index page:
-
-![index1](/images/index1.png)
-![index2](/images/index2.png)
-
-Show page:
-
-![show1](/images/show1.png)
-![show2](/images/show2.png)
-
-Basket:
-
-![basket](/images/basket.png)
-
-Profile(logged in as **customer**):
-
-![customer](/images/customer.png)
-
-Profile:
-![admin](/images/admin.png)
-
-Add new product:
-
-![add](/images/add.png)
-
-Statistics:
-
-![statistics](/images/statistics.png)
-
 
 ## Bugs
 
