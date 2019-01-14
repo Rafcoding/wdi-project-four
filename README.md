@@ -7,10 +7,7 @@ This app is an e-commerce website that sells both video games and movies. Play &
 Play & Watch was the final project of the GA Immersive course and it was also a group project. Our main objective was to use React to build the front-end and our timeframe for completion was one week. The objective was to build a full stack web application using React in **one week**.
 
 
-Web Site Heroku. GitHub Repo.
-
-<!-- Launch on [Heroku](https://play-and-watch.herokuapp.com). Check out the GitHub [Repo](https://github.com/ShamSZ/wdi-project-four). -->
-
+Go to [Website](https://project4-playandwatch.herokuapp.com/) and [GitHub](https://github.com/Rafcoding/wdi-project-four).
 
 ## Brief
 
